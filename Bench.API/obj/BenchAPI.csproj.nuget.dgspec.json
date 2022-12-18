@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vaishnavi.p\\Desktop\\Bench\\Bench API\\Bench.API\\Bench.API\\BenchAPI.csproj": {}
+    "C:\\Users\\Honey\\Desktop\\New folder\\benchAPI\\Bench.API\\BenchAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vaishnavi.p\\Desktop\\Bench\\Bench API\\Bench.API\\Bench.API\\BenchAPI.csproj": {
+    "C:\\Users\\Honey\\Desktop\\New folder\\benchAPI\\Bench.API\\BenchAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vaishnavi.p\\Desktop\\Bench\\Bench API\\Bench.API\\Bench.API\\BenchAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Honey\\Desktop\\New folder\\benchAPI\\Bench.API\\BenchAPI.csproj",
         "projectName": "BenchAPI",
-        "projectPath": "C:\\Users\\vaishnavi.p\\Desktop\\Bench\\Bench API\\Bench.API\\Bench.API\\BenchAPI.csproj",
-        "packagesPath": "C:\\Users\\vaishnavi.p\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vaishnavi.p\\Desktop\\Bench\\Bench API\\Bench.API\\Bench.API\\obj\\",
+        "projectPath": "C:\\Users\\Honey\\Desktop\\New folder\\benchAPI\\Bench.API\\BenchAPI.csproj",
+        "packagesPath": "C:\\Users\\Honey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Honey\\Desktop\\New folder\\benchAPI\\Bench.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vaishnavi.p\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Honey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
