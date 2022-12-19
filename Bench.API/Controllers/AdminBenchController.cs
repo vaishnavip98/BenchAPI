@@ -41,6 +41,7 @@ namespace BenchAPI.Controllers
                 return NotFound();
             }
            var bench = await  _benchDbContext.Benchs.FirstOrDefaultAsync(x => x.BenchId == benchId);
+
             if(bench == null)
             {
                 return NotFound();
@@ -48,6 +49,7 @@ namespace BenchAPI.Controllers
             return Ok(bench);
 
         }
+
         [HttpPut]
         [Route("{benchId:Guid}")]
 
@@ -77,9 +79,8 @@ namespace BenchAPI.Controllers
             {
                 return NotFound();
             }
-            var bench = await _benchDbContext.Benchs.FirstAsync(benchId);
-
-            if(bench == null )
+            var bench = await _benchDbContext.Benchs.FirstOrDefaultAsync(x => x.BenchId == benchId);
+            if (bench == null )
             {
                 return NotFound();
             }
