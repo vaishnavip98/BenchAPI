@@ -1,5 +1,6 @@
 ﻿using Bench.API.Data;
 using BenchAPI.Models;
+using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,8 +23,9 @@ namespace BenchAPI.Controllers
             return Ok(benchs);
 
         }
+       
 
-        [HttpPost]
+		[HttpPost]
         public async Task<IActionResult> AddBench([FromBody] BenchResource benchRequest)
         {
             benchRequest.BenchId = Guid.NewGuid();
